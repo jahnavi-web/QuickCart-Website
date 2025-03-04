@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCart - Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body { background-color: #f8faf8; color: #343a40; }
+        .navbar { background-color: #2cd489; }
+        .btn-primary { background-color: #28a745; border: none; }
+        .btn-success { background-color: #007bff; border: none; }
+        .footer { background-color: #ff5722; color: white; padding: 1rem; }
+        .social-icons a { color: white; margin: 0 10px; font-size: 1.5rem; }
+        .card img { width: 100%; height: auto; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">QuickCart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deals.html">Deals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cart">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container my-5">
+        <h2 class="text-center">Shop Our Collection</h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/76/65/1d/76651d5e0df4c0c7403afeb931cae01c.jpg" class="card-img-top" alt="Clothing">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fashion Wear</h5>
+                        <p class="card-text">Trendy outfits for all seasons</p>
+                        <a href="deals.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://i5.walmartimages.com/asr/8b1a6f0e-e55a-4512-993a-e8b8ba9edb7c_3.c8cf08fbd0c302337c9f374680844c88.jpeg" class="card-img-top" alt="Kitchen Items">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kitchen Essentials</h5>
+                        <p class="card-text">Premium kitchen tools and appliances</p>
+                        <a href="deals.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-isometric-electronic-devices-collection-png-image_3791895.jpg" class="card-img-top" alt="Electronic Devices">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Electronics</h5>
+                        <p class="card-text">Latest gadgets and devices</p>
+                        <a href="deals.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer text-center p-3">
+        <p>&copy; 2025 QuickCart. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
